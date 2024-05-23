@@ -1,0 +1,86 @@
+/* #49adcc4a
+#49adcc 
+#49adcc8f*/
+
+.section5Container {
+  background-image: url("./images/inpant10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+  padding: 10px;
+}
+
+.section5Container .contenting {
+  width: 70%;
+}
+
+@media screen and (max-width: 825px) {
+  .section5Container {
+    width: 90%;
+    padding: 2px;
+  }
+
+  .section5Container .contenting {
+    width: 90%;
+  }
+}
+
+.section9 .ant-collapse-header {
+  font-weight: 600;
+  font-size: medium;
+  align-items: center !important;
+}
+
+.section9 .ant-collapse-item {
+  background-color: #065770;
+  border-radius: 0 !important;
+}
+
+.section9 .ant-collapse-header-text {
+  color: white !important;
+}
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(
+      650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    ),
+    radial-gradient(
+      1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%
+    );
+}
+
+.section13 .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.section15 .ant-collapse-header {
+  font-weight: 600;
+  font-size: medium;
+  align-items: center !important;
+}
+
+.section15 .ant-collapse-item {
+  background-color: #065770;
+  border-radius: 0 !important;
+}
+
+.section15 .ant-collapse-header-text {
+  color: white !important;
+}
+.animation_bounce{
+width: 30%;
+height: 50%;
+}
